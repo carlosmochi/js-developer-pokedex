@@ -1,0 +1,33 @@
+@media screen and (min-width: 380px) {
+    .pokemons{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (min-width: 576px) {
+
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pokedexImg{
+        right: 30vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        max-height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .pokedexImg{
+        right: 40vw;
+    }
+}
